@@ -1,0 +1,1 @@
+(()=>{console.log("hi!");let e=document.getElementById("content"),t=document.createElement("p");t.style.color="red",t.textContent="Hey I am Red!",e.appendChild(t)})();
