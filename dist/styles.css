@@ -1,8 +1,34 @@
+html {
+    height: 100%;
+}
+
 .main-separator {
     border-bottom: 5px solid dimgray;
 }
 
-h1 {
+h2 {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+
+#toDoListName {
+    color: white;
+    border: 0px;
+}
+
+#toDoItemName {
+    color: white;
+    border: 0px;
+}
+
+#addListBtn {
+    color: white;
+    border: 0px;
+}
+
+#addItemBtn {
+    color: white;
+    border: 0px;
+}
+
+
