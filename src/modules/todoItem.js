@@ -1,6 +1,6 @@
-class todoItem {
-    constructor() {
-        
-    }
+const todoItemFactory = (content) => {
 
-}
+    return {content};
+};
+
+export {todoItemFactory}
