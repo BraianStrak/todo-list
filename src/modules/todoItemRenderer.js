@@ -20,4 +20,4 @@ const clearAllItems = () => {
     itemContainer.innerHTML = '';
 }
 
-export {renderItem, renderAllItems, clearAllItems};
+export {renderAllItems, clearAllItems};
