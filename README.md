@@ -1,3 +1,5 @@
 This is a todo-list web-app, part of The Odin Project curriculum!
 
-Created using webpack and bootstrap, with local storage on firebase.
+Users can add 'to-dos' to lists they create. 
+
+Created using JS, webpack and bootstrap.
