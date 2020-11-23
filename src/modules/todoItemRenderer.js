@@ -7,4 +7,17 @@ const renderItem = (content) => {
     itemContainer.appendChild(newItem);
 }
 
-export {renderItem};
+const renderAllItems = (list) => {
+    let i = 0;
+
+    for (i = 0; i < list.length; i++) { 
+        renderItem(list[i].content); 
+    }
+}
+
+const clearAllItems = () => {
+    let itemContainer = document.getElementById('todo-item-container');
+    itemContainer.innerHTML = '';
+}
+
+export {renderItem, renderAllItems, clearAllItems};

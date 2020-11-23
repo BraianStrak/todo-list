@@ -1,5 +1,4 @@
 const todoItemFactory = (content) => {
-
     return {content};
 };
 
